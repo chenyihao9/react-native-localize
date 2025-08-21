@@ -36,6 +36,7 @@
     "release": "release-it",
     "example": "yarn --cwd example",
     "bootstrap": "yarn example && yarn install && yarn example pods",
+    "codegen-lib": "react-native codegen-lib-harmony --no-safety-check --npm-package-name react-native-localize --cpp-output-path ./harmony/rn_localize/src/main/cpp/generated --ets-output-path ./harmony/rn_localize/src/main/ets/generated --turbo-modules-spec-paths ./src/NativeRNLocalize.ts",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build"
   },
   "react-native-builder-bob": {
@@ -63,7 +64,9 @@
     }
   },
   "dependencies": {
-    "react-native-localize": "3.1.0"
+    "react-native-localize": "3.1.0",
+    "metro":"0.82.5",
+    "memfs":"4.17.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -75,17 +78,21 @@
     "react": "18.2.0",
     "react-native": "0.72.5",
     "react-native-builder-bob": "^0.23.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "@react-native-community/cli": "11.4.1",
+    "react-native-harmony-cli": "npm:@react-native-oh/react-native-harmony-cli@^0.0.27"
   },
-  "overrides": {
-    "@react-native/codegen": "0.74.0"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "harmony": {
     "alias": "react-native-localize",
-    "codegenConfig": {
-      "specPaths": [
-        "./src"
-      ]
+    "autolinking": {
+      "etsPackageClassName":"RNLocalizePackage",
+      "cppPackageClassName":"LocalizePackage",
+      "cmakeLibraryTargetName": "rnoh_localize", 
+      "ohPackageName": "@react-native-ohos/react-native-localize"
     }
   }
 }

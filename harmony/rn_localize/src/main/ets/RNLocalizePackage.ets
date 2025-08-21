@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-import { RNPackage, TurboModulesFactory } from "@rnoh/react-native-openharmony/ts";
+import { RNPackage, TurboModulesFactory, RNOHPackage } from "@rnoh/react-native-openharmony/ts";
 import type { TurboModule, TurboModuleContext } from "@rnoh/react-native-openharmony/ts";
 import { TM } from "@rnoh/react-native-openharmony/generated/ts";
 import { RNLocalizeModule } from './RNLocalizeModule';
@@ -40,7 +40,7 @@ class RNLocalizeModulesFactory extends TurboModulesFactory {
   }
 }
 
-export class RNLocalizePackage extends RNPackage {
+export class RNLocalizePackage extends RNOHPackage {
   createTurboModulesFactory(ctx: TurboModuleContext): TurboModulesFactory {
     return new RNLocalizeModulesFactory(ctx);
   }

@@ -1,4 +1,4 @@
-# @react-native-oh-tpl/react-native-localize
+# @react-native-ohos/react-native-localize
 
 This project is based on [react-native-localize](https://github.com/zoontek/react-native-localize)
 
