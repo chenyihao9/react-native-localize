@@ -22,9 +22,10 @@
  * SOFTWARE.
  */
 
-import { RNPackage, TurboModulesFactory, RNOHPackage } from "@rnoh/react-native-openharmony/ts";
+import { RNPackage, TurboModulesFactory } from "@rnoh/react-native-openharmony/ts";
+import {RNOHPackage} from "@rnoh/react-native-openharmony";
 import type { TurboModule, TurboModuleContext } from "@rnoh/react-native-openharmony/ts";
-import { TM } from "@rnoh/react-native-openharmony/generated/ts";
+import { TM } from "./generated/ts";
 import { RNLocalizeModule } from './RNLocalizeModule';
 
 class RNLocalizeModulesFactory extends TurboModulesFactory {

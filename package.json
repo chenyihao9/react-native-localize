@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenyihao9/react-native-localize.git"
+    "url": "https://github.com/zoontek/react-native-localize.git"
   },
   "keywords": [
     "react-native-localize",
@@ -87,7 +87,7 @@
   "harmony": {
     "alias": "react-native-localize",
     "autolinking": {
-      "etsPackageClassName":"RNLocalizePackage",
+      "etsPackageClassName":"LocalizePackage",
       "cppPackageClassName":"LocalizePackage",
       "cmakeLibraryTargetName": "rnoh_localize", 
       "ohPackageName": "@react-native-ohos/react-native-localize"

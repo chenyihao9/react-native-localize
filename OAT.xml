@@ -5,14 +5,14 @@
 		<filefilterlist>
 			<filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
 				<filteritem type="filepath" name="example/.*" desc="示例工程，不添加版权头"/> 
-                <filteritem type="filepath" name="harmony/sensors/hvigorfile.ts" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
-                <filteritem type="filepath" name="harmony/sensors/src/main/cpp/generated/RNOH/generated/turbo_modules/.*" desc="codegen自动生成，不手动修改"/>
-                <filteritem type="filepath" name="harmony/sensors/src/main/cpp/generated/RNOH/generated/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/hvigorfile.ts" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/main/cpp/generated/RNOH/generated/turbo_modules/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/main/cpp/generated/RNOH/generated/.*" desc="codegen自动生成，不手动修改"/>
                
-                <filteritem type="filepath" name="harmony/sensors/src/main/ets/generated/.*" desc="codegen自动生成，不手动修改"/>
-                <filteritem type="filepath" name="harmony/sensors/src/main/ets/generated/components/.*" desc="codegen自动生成，不手动修改"/>
-                <filteritem type="filepath" name="harmony/sensors/src/main/ets/generated/turboMoudules/.*" desc="codegen自动生成，不手动修改"/>
-                <filteritem type="filepath" name="harmony/sensors/src/test/.*" desc="DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/main/ets/generated/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/main/ets/generated/components/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/main/ets/generated/turboMoudules/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/test/.*" desc="DevEco Studio自动生成，不手动修改"/>
 
 				<filteritem type="filename" name="hvigorfile.ts" desc="hvigor构建脚本，DevEco Studio自动生成，不需要添加版权头"/>
 				<filteritem type="filename" name="*.json5" desc="hvigor工程配置文件，DevEco Studio自动生成，不需要添加版权头"/>
@@ -29,14 +29,14 @@
 			</filefilter>
 			<filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
 				<filteritem type="filepath" name="example/.*" desc="示例工程，不添加版权头"/> 
-                <filteritem type="filepath" name="harmony/sensors/hvigorfile.ts" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
-                <filteritem type="filepath" name="harmony/sensors/src/main/cpp/generated/RNOH/generated/turbo_modules/.*" desc="codegen自动生成，不手动修改"/>
-                <filteritem type="filepath" name="harmony/sensors/src/main/cpp/generated/RNOH/generated/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/hvigorfile.ts" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/main/cpp/generated/RNOH/generated/turbo_modules/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/main/cpp/generated/RNOH/generated/.*" desc="codegen自动生成，不手动修改"/>
                
-                <filteritem type="filepath" name="harmony/sensors/src/main/ets/generated/.*" desc="codegen自动生成，不手动修改"/>
-                <filteritem type="filepath" name="harmony/sensors/src/main/ets/generated/components/.*" desc="codegen自动生成，不手动修改"/>
-                <filteritem type="filepath" name="harmony/sensors/src/main/ets/generated/turboMoudules/.*" desc="codegen自动生成，不手动修改"/>
-                <filteritem type="filepath" name="harmony/sensors/src/test/.*" desc="DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/main/ets/generated/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/main/ets/generated/components/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/main/ets/generated/turboMoudules/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/rn_localize/src/test/.*" desc="DevEco Studio自动生成，不手动修改"/>
 
 				<filteritem type="filename" name="hvigorfile.ts" desc="hvigor构建脚本，DevEco Studio自动生成，不需要添加版权头"/>
 				<filteritem type="filename" name="*.json5" desc="hvigor工程配置文件，DevEco Studio自动生成，不需要添加版权头"/>

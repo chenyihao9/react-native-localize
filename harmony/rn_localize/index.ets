@@ -21,6 +21,6 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import { RNLocalizePackage } from './src/main/ets/RNLocalizePackage'
+import { RNLocalizePackage as LocalizePackage } from './src/main/ets/RNLocalizePackage'
 export * from "./ts"
-export default RNLocalizePackage
+export default LocalizePackage

@@ -23,7 +23,7 @@
  */
 
 import { TurboModule } from '@rnoh/react-native-openharmony/ts';
-import { TM } from "@rnoh/react-native-openharmony/generated/ts"
+import { TM } from "./generated/ts"
 import I18n from '@ohos.i18n';
 import Intl from '@ohos.intl';
 
